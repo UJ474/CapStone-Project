@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header starts here */
+.header {
+    display: flex;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid black;
+    padding: 16px 0;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+
+
+
+.logo-appType {
+    gap: 12px;
+    width: auto;
+    height: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    font-size: 34px;
+    margin: 0 55px;
+    
+}
+
+
+.pageLinks {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    gap: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing:-0.01em;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 55px;
+}
+
+/* Responsiveness of Header */
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .logo-appType {
+        font-size: 28px;
+        margin: 0 20px;
+    }
+
+    .pageLinks {
+        flex-direction: column;
+        gap: 16px;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 0;
+    }
+
+    .logo-appType {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .pageLinks {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+}
+
+
+
+/* Main Container starts here */
+
+/* Main Content */
+
+/* Landing Page Hero With Tagline and Image */
+
+
+.container {
+    padding: 38px 0;
+
+}
+
+.Landing-page-hero {
+    border-bottom: 1px solid black;
+    padding: 0;
+    gap: 48px;
+    font-size: 7rem;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 120px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    letter-spacing: -0.01em;
+}
+
+.Landing-page-hero img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover; 
+}
+
+/* Landing Page Single Feature Description With Image and Button */
+
+/* .Landing-Page-Single-Feature-Description-With-Image-and-Button {
+
+} */
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(30%);
+    transform: translateY(-20%);
+    font-size: 5vw;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    filter: brightness(80%) contrast(1.2);
+}
+
+
+.text-content {
+    gap: 16px;
+}
+
+.Industrial-Design {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    color: white;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.Explore-my-work {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Industrial-Design {
+        font-size: 30px; 
+    }
+    .Explore-my-work {
+        font-size: 18px;
+    }
+}
+
+
+
+.Explore-My-Work button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.Explore-My-Work button:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
