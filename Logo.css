@@ -3,6 +3,24 @@ body {
     padding: 0;
 }
 
+.HOME:hover {
+    transform: scale(1.02);
+}
+
+.PROJECT:hover {
+    transform: scale(1.02);
+}
+
+.ABOUT:hover {
+    transform: scale(1.02);
+}
+
+.CONTACT:hover {
+    transform: scale(1.02);
+}
+
+
+
 
 .header {
     z-index: 100000;
