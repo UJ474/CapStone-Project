@@ -3,20 +3,40 @@ body {
     padding: 0;
 }
 
+.HOME {
+    transition: 0.4s ease-in-out;
+}
+
+.PROJECT {
+    transition: 0.4s ease-in-out;
+}
+
+.ABOUT {
+    transition: 0.4s ease-in-out;
+}
+
+.CONTACT {
+    transition: 0.4s ease-in-out;
+}
+
 .HOME:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .PROJECT:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .ABOUT:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .CONTACT:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -63,11 +83,6 @@ body {
     transition: transform 0.5s ease;
 }
 
-.pageLinks div:hover {
-    cursor: pointer;
-    font-size: 30px;
-    transform: scale3d(1.06);
-}
 
 
 @media only screen and (max-width: 768px) {
