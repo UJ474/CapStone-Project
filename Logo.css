@@ -82,6 +82,20 @@ body {
     transition: transform 0.5s ease;
 }
 
+.pageLinks img {
+    display: none;
+    height: 40em;
+    width: 40em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pageLinks img {
+        display: block;
+        height: auto;
+        width: auto;
+    }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -97,10 +111,7 @@ body {
     }
 
     .pageLinks {
-        flex-direction: column;
-        gap: 16px;
-        font-size: 20px;
-        margin: 0 20px;
+        display: none;
     }
 }
 
@@ -117,11 +128,9 @@ body {
     }
 
     .pageLinks {
-        flex-direction: column;
-        gap: 8px;
-        font-size: 18px;
-        margin: 0 10px;
+        display: none;
     }
+
 }
 
 
