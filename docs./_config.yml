@@ -1,0 +1,10 @@
+theme: jekyll-theme-primer
+markdown: kramdown
+title: My Website
+description: A GitHub Pages site
+baseurl: "/docs"
+url: "https://UJ474.github.io"
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
